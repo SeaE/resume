@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/progress.js"></script>
+
+</head>
+
+<body>
+	<div class="wrap">
+    	<div class="header">
+        	<div class="head">
+            	<img src="images/head.jpg">
+            </div>  
+            	<ul class="list">
+                	<li><p>李海东</p></li>
+                    <li><p>邢台学院地理系地理科学专业</p></li>
+                    <li><p>河北省唐山市</p></li>
+                    <li><p>18331912897</p></li>
+                </ul>
+        </div>												<!--//header-->
+        <div class="section">
+        	<div class="introduce">
+            	<h3>个人介绍</h3>
+                <div class="p">
+                	  <p>我是一个爱学习并且善于学习的人，坚持一像素的执着。吃苦耐劳，勇于向困难发起挑战。我相信，工作的前提就是拥有扎实的基础，我的目标就是在扎实的基础之上完成实战的考验。希望能够结交更多的技术大牛。</p>
+                </div>
+              
+            </div>
+            <div class="experience">
+            	<h3>经历</h3>
+                <div class="e-left">
+                	<p>2012/09</p>
+                    <p>2016/02</p>
+                </div>
+                <div class="e-right">
+                	<p> 进入邢台学院</p>
+                    <p> 开启自学之路</p>
+                    <p> 通过知乎，百度前端技术学院，</br>达内培训视频，</br>慕课网，读书自学</p>
+                    <p>......</p>
+                </div>
+            </div>
+            <div class="skill">
+            	<h3>技能</h3>
+                <div class="circle1 fl circle"><p>HTML</p></div>
+                <div class="circle2 fl circle"><p>CSS</p></div>
+                <div class="circle3 fl circle"><p>JS</p></div>
+                <div class="circle4 fl circle"><p>JQ</p></div>
+                <div class="circle5 fl circle"><p>PS</p></div>
+                <div class="circle6 fl circle"><p>DW</p></div>
+            </div>
+        </div>
+        <div class="footer">
+        	<h3>联系我吧</h3>
+            <span class="tel">QQ:<i>2223559331</i></span>
+            <span class="email">Email:<i>2223559331@qq.com</i></span>
+        </div>
+    </div>
+    <script>
+    	$(".circle1").circleProgress({
+			value:0.8,
+			size:100,
+			fill:{
+				gradient:["red","orange"]
+				}
+		});
+		$(".circle2").circleProgress({
+			value:0.75,
+			size:100,
+			fill:{
+				gradient:["blue","orange"]
+				}
+		});
+		$(".circle3").circleProgress({
+			value:0.7,
+			size:100,
+			fill:{
+				gradient:["red","blue"]
+				}
+		});
+		$(".circle4").circleProgress({
+			value:0.75,
+			size:100,
+			fill:{
+				gradient:["green","orange"]
+				}
+		});
+		$(".circle5").circleProgress({
+			value:0.8,
+			size:100,
+			fill:{
+				gradient:["orange","blue"]
+				}
+		});$(".circle6").circleProgress({
+			value:0.85,
+			size:100,
+			fill:{
+				gradient:["red","blue"]
+				}
+		});
+    </script>
+</body>
+</html>
